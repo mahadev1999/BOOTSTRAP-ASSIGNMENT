@@ -1,0 +1,25 @@
+.grid-container1
+{
+    display:grid;
+    grid-template-columns:100px 300px 400px 200px;
+    grid-template-rows:500px;
+    gap:10px;
+    justify-content:space-around;
+    height:300px;
+    width:400px;
+
+}
+.grid-container1>div
+{
+    background-color:blueviolet;
+    color:yellow;
+    padding:30px;
+    margin:20px;
+    border:10px double greenyellow;
+    
+}
+.box4
+{
+    background-image:url("nature2.jpeg");
+
+}
